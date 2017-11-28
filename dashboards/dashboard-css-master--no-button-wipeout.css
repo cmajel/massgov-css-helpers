@@ -1,13 +1,3 @@
-/***** 
-button wipeouts 
-*****/
-
-@import url("https://cmajel.github.io/massgov-css-helpers/dashboards/dashboard--button-wipeouts.css");
-
-/** 
-end button wipeouts 
-**/
-
 /** hide  node_id filter slice **/
 #slice_130 {
     display: none;
