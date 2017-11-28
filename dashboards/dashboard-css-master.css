@@ -8,95 +8,13 @@ button wipeouts
 end button wipeouts 
 **/
 
-/** hide  node_id filter slice **/
-#slice_130 {
-    display: none;
-}
 
-/** hide chart headers on text areas **/
-.markup .chart-header  {
-    display: none;
-}
+/***** 
+chart css 
+*****/
 
-/** standard dashboard css **/
+@import url("https://cmajel.github.io/massgov-css-helpers/dashboards/dashboard--chart-css.css");
 
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500');
-
-body {
-    background-color: #fff;
-    font-family: Montserrat, Helvetica, Arial, sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6, p {
-    font-family: Montserrat, Helvetica, Arial, sans-serif;
-}
-
-.title h1 {
-    display: none;
-}
-
-.slice-html {
-    height: 100%;
-    overflow-y: hidden;
-}
-
-.slice-html--title {
-    font-size: 60px;
-    padding: 0;
-    margin-bottom: 35px;
-    color: #141414;
-}
-
-.slice-html--headline {
-    font-size: 28px;
-    font-weight: 700;
-    background-color: #14558f;
-    color: #fff;
-    padding:21px 20px;
-    margin-bottom:22px;
-}
-
-
-.slice-html--paragraph {
-    font-size: 22px;
-    line-height: 33px;
-    color: #535353;
-    width: 75%;
-}
-
-
-
-/* charts */
-
-div.widget .chart-header {
-    padding: 11px 0;
-    margin: 11px 0;
-}
-
-.chart-header span {
-    font-weight: 500;
-    color: #141414;
-    font-size: 22px;
-}
-
-.slice_description {
-    display: none;
-}
-
-/* table styles*/
-
-.slice_container.table {
-    background-color: #ffffff;
-}
-
-.widget.table tr>td {
-    padding: 10px !important;
-}
-
-/* pagination */
-
-div.dataTables_paginate ul.pagination {
-    margin: 22px 0px;
-}
-
+/** 
+end chart css
+**/
